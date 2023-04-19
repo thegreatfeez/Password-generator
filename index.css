@@ -1,0 +1,76 @@
+body{
+  margin: 50px;
+  background-color:  #1C1C1C;
+  color: white;
+}
+.container{
+margin: auto;
+font-family:'Inter', sans-serif;;
+padding: 80px 50px;
+width: 500px;
+height: 500px;
+background-color: #264653;
+}
+h1{
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+span{
+  color: #2A9D8F
+}
+.text{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+button{
+  width: 191px;
+  height: 42px;
+  background-color:#2A9D8F;
+  Padding:9px, 17px, 9px, 15px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: -3px -3px 15px rgba(0, 0, 0, 0.3);
+}
+button:active{
+  opacity: 0.8;
+}
+
+.passwords{
+  margin-top: 40px;
+  border-top: 1px solid #376476;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.left{
+  width: 211px;
+  margin-top: 40px;
+  margin-right: 20px;
+  height: 39px;
+  padding-top: 15px;
+  background-color: #376476;
+  border-radius: 6px;
+
+}
+.right{
+  width: 211px;
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 39px;
+  padding-top: 15px;
+  background-color: #376476;
+  border-radius: 6px;
+}
+.right:active, .left:active{
+  box-shadow: -3px -3px 15px rgba(0, 0, 0, 0.3);
+}
