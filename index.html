@@ -28,12 +28,33 @@
       </br></span>
     </h1>
       <p class="text">Never use an insecure password again.</p>
-      <button>Generate passwords</button>
+<!--Prefrences-->
+      <!-- <form class="form">
+        <div class="password-length">
+        <label for="passwordAmountNumber">Password Length</label>
+        <input type="range" min="1" max="20" value="0" id="passwordAmountRange">
+        <input type="number" min="1" max="20" value="0" id="passwordAmountNumber">
+        </div>
+
+        <div class="symbols">
+        <label for="symbols">Symbols</label>
+        <input type="checkbox" id="symbols">
+        </div>
+
+        <div class="numbers">
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" id="numbers">
+        </div>
+      </form> -->
+
+
+      <button onclick="generatePassword()">Generate passwords</button>
     </div>
     <div class="passwords">
-      <p class="left">gdgdg![6t*dgxkr</p>
-      <p class="right">ghfhfghd7^9£0-3</p>
+      <p class="left" id="passwordOne-el"></p>
+      <p class="right" id="passwordTwo-el"></p>
     </div>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
